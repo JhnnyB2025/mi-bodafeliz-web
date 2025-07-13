@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('imagenes/fondo-agua.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  color: #fff;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+  background-blend-mode: lighten;
+}
+
+.hero, .section {
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  padding: 40px 20px;
+  margin-bottom: 20px;
+}
+
+.countdown-container {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button {
+  background-color: #ff6b6b;
+  color: white;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  color: #333;
+}
